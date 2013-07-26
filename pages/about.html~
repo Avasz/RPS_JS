@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>
+      Help
+    </title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+  </head>
+
+  <body>
+    <script type="text/javascript" src="../js/begin.js"></script>
+    <div id="helpg">
+      <p>An Old Game Of Rock, Paper & Scissors.
+      <p></p>
+      <p>Still Much Left To Do.
+      </p>
+      
+    </div>
+    <button id="back" type=button onclick=goback();>GO BACK</button>
+    <button id="back" type=button onclick=start('../pages/game.html') ;>START GAME</button>
+    
+  </body>
+</html>

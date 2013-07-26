@@ -1,0 +1,184 @@
+body{
+  height:100%;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  border-top-right-radius:20px;
+  overflow:hidden;
+  background:orange;
+}
+#choose{
+  background:#FF8423;
+  padding:0px;
+  margin:0px;
+  border:2px solid black;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  height:35px;
+  width:100%;
+  text-align:center;
+  line-height:2px;
+}
+
+#weapons{
+
+  background:blue;
+  height:100%
+  width:100%;
+  
+  text-align:center;
+  
+ 
+}
+#weapon{
+  text-align:center;
+  background: #2EBC1A;
+  width:25%;
+  height:100%;
+  float:right;
+  outline:2px solid black;
+  -moz-outline-radius:30px 0px 0px 0px;
+  border:0px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:0px;
+  
+}
+
+#choice2{
+  text-align:center;
+  background:#C4C4C4;
+  width:50%;
+  height:100%;
+  float:left;
+  outline:2px solid black;
+  -moz-outline-radius-topleft:0px;
+  -moz-outline-radius-topright:0px;
+  border:0px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0;
+}
+#choice1{
+    text-align:center;
+      background:#C4C4C4;
+        width:50%;
+          height:100%;
+            float:left;
+              outline:2px solid black;
+                -moz-outline-radius-topleft:40px;
+                  -moz-outline-radius-topright:00px;
+                    border:0px;
+                      border-top-left-radius:40px;
+                        border-top-right-radius:0px;
+                      }
+#field{
+  clear:both;
+  height:220px;
+  width:100%;
+  outline:2px solid black;
+
+}
+#h_weapon{
+  
+  padding:0px;
+  height:220px;
+  width:50%;
+  float:left;
+  outline:2px solid black;
+  background:white;
+}
+#c_weapon{
+    
+      padding:0px;
+        height:220px;
+          width:50%;
+            float:right;;
+              outline:2px solid black;
+            background:white;
+            }
+#tabs{
+  padding:0px 0px 7px 0px;
+  margin:0px;
+  height:15px;
+  width:25%;
+ outline:1px solid black; 
+  
+  float:left;
+  text-align:center;
+  line-height:0px;
+}
+#ms{
+ line-height:1px;
+ text-align:center;
+ padding:0px 0px 0px 0px;
+ height:10px;
+}
+#reset{
+  background:#FF4100;
+  color:white;
+  border:1px solid black;
+  border-radius:20px;
+}
+
+#play{
+  
+  font-size:30px;
+  margin:8% 0% 0% 5%;
+  background:#FF4100;
+  color:black;
+  border:1px solid black;
+  border-radius:20px;
+  width:85%;
+  height:100%;
+}
+
+#help{
+    font-size:30px;
+      margin:2% 0% 0% 5%;
+        background:#FF4100;
+          color:black;
+            border:1px solid black;
+              border-radius:20px;
+                width:85%;
+                  height:100%;
+                }
+
+#about{
+    font-size:30px;
+      margin:2% 0% 0% 5%;
+        background:#FF4100;
+          color:black;
+            border:1px solid black;
+              border-radius:20px;
+                width:85%;
+                  height:100%;
+               }
+#helpg{
+  text-align:center;
+  margin:10% 0% 0% 5%;
+  color:black;
+  border:1px solid black;
+  border-radius:20px;
+  width:85%;
+  background:#FF4100;
+  font-size:22px;
+  height:20%;
+  line-height:1px;
+}
+
+#back{
+  text-align:center;
+  margin:5% 0% 0% 8%;
+  color:black;
+  border: 1px solid black;
+  border-radius:35px;
+  width:35%;
+  height:10%;
+  background:silver;
+}
+
+#prev{
+  text-align:center;
+  height:100%;
+  width:2%;
+  padding:0px
+}

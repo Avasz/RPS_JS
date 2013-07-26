@@ -1,0 +1,25 @@
+{
+  
+	"name": "RockPaperScissors",
+  
+	"description": "A Rock,Paper,Scissors Game",
+ 
+	"launch_path": "/index.html",
+ 
+	"icons": {
+    "128": "/img/icon_128.png",
+    
+	"60": "/img/icon_64.png"
+	},
+	"orientation": "portrait",
+
+	 "developer": {
+    
+	"name": "Avash Mulmi",
+    
+	"url": "http://www.avieezcorner.blogspot.com"
+  },
+ 
+	 "default_locale": "en"
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      ROCK PAPER & SCISSORS
+    </title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+  </head>
+
+  
+<body>
+   <script type="text/javascript" src="../js/script.js"></script>
+
+   <div id="choose"><h4>Please Choose Your Weapon</h4></div>
+
+  
+   <div id="weapons">
+      <div id="weapon" onmouseover="this.style.background='#007217';" onmouseout="this.style.background='#2EBC1A';" onclick=change('../img/stone.jpg','h_weapon','rock');><h5>ROCK</h5></div>
+      <div id="space"></div>
+      <div id="weapon" onmouseover="this.style.background='#007217';" onmouseout="this.style.background='#2EBC1A';" onclick=change('../img/paper.jpg','h_weapon','paper')><h5>PAPER</h5></div>
+      <div id="space"></div>
+     <div id="weapon" onmouseover="this.style.background='#007217';" onmouseout="this.style.background='#2EBC1A';" onclick=change('../img/scissors.jpg','h_weapon','scissors')><h5>SCISSORS</h5></div>
+   </div>
+   <button type=button id="reset" value="reset" onclick=reset();>RESET</button>
+     <div id="choice1">
+       <h4>You Chose</h4>
+     </div>
+     <div id="choice2">
+       <h4>AI Chose</h4>
+     </div>
+
+     <div id="field">
+       <div id="h_weapon"></div>
+       <div id="c_weapon"></div>
+     </div>
+     <div id="ms"><p id="msg">RESULT</p></div>
+   <div id="score">
+     <div id="tabs"><h6>Total:<p id="tot">0</p></h6></div>
+     <div id="tabs"><h6>Won: <p id="won">0</p></h6></div>
+     <div id="tabs"><h6>Lost:<p id="lost">0</p></h6></div>
+     <div id="tabs"><h6>Draw: <p id="draw">0</p></h6></div>
+   </div>
+ </body>
+ </html>
