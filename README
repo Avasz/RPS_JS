@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 This is just a simple Rock Paper Scissors game I created to test in FIREFOX OS. And it worked. 
 The manifest file is already provided for you to test in Firefox OS, or its simulators.
+=======
+This is just a simple Rock Paper Scissors game i made to test in Firefox OS.
+It worked fine.
+>>>>>>> 0263b8aa02cc883c40e6f5a74dfc4cf5c453ef6f
